@@ -20,10 +20,17 @@ tags : [TIL]
 - 포트란
   > 포트란 외부의 다른 장비와 접속할 때 해당 장비에서 실행중인 프로그램들을 식별하기 위해 필요한 프로세스의 논리 단위이다.
 
-  ex) 한국(ip)에서 일본(ip)의 도쿄를 방문하기(프로그램) 위해 하네다 공항(포트)을 통해 일본으로 향했다.
-  ex) 이번엔 한국(ip)에서 일본(ip)의 오사카를 방문하기(프로그램) 위해 오사카 공항(포트)를 이용했다.
+  * ex) 한국(ip)에서 일본(ip)의 도쿄를 방문하기(프로그램) 위해 하네다 공항(포트)을 통해 일본으로 향했다.
+  * ex) 이번엔 한국(ip)에서 일본(ip)의 오사카를 방문하기(프로그램) 위해 오사카 공항(포트)를 이용했다.
   * 총 가용한 포트의 개수는 : 65535개
   * well-known port
   ![포트 이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F991F92475B25CF7124)
   
 * * *
+
+## 2. SSH 
+
+- SSH란?
+  > Secure SHell(SSH)이란 암호화 기법을 사용한 네트워크 프로토콜로 네트워크 상의 다른 컴퓨터에 로그인하거나 다른 시스템으로 파일을 복사할 수 있도록 해주는 응용 프로그램 혹은 프로토콜
+- 작동원리
+  ![ssh 작동원리](https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/JqQ/image/DycXTVgasvXzxV0pFfLtCkhLekI)
