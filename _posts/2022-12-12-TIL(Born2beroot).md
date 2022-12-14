@@ -68,4 +68,6 @@ An Born2beroot
 	
 - 공통점 : Apptitude와 APT 모두 패키지 관리를 위한 고수준 관리 도구로 패키지의 설치 삭제 등과 같은 작업을 편리하게 실행하도록 도와줌
 - APT : Advancded Packaging Tool의 약자로 apt-get, apt-cache 등 패키지를 설치하고 제거하는 용도로 만들어진 툴들의 기능을 통합한 툴. 사용자들이 자주 쓰는 커맨드들이 각 툴에 흩어져 있어 불편했던 점을 보완하기 위한 툴이다. 
-- Apptitude : 데비안의 또 다른 고수준 패키지 관리 도구로, apt-get 보다
+- Apptitude : 데비안의 또 다른 고수준 패키지 관리 도구로, apt-get 보다 개선된 기능을 제공함
+	* 가장 큰 차이는 apptitude의 경우 interactive UI를 제공한다는 점 / aptitude 명령어를 입력하면 설치된 패키지를 확인할 수 있는 인터페이스가 실행된다
+	![aptitude](https://upload.wikimedia.org/wikipedia/commons/9/9c/Aptitude.png)
