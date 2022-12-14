@@ -61,4 +61,11 @@ An Born2beroot
 
 4. Apptitude vs APT
 
-- 공통점 : 둘 
+- 패키지 관리 : 새로운 소프트웨어를 설치, 업데이트, 삭제하는 일을 말함. 패키지는 저장소에 저장되어 있으며, HTTP 혹은 FTP서버를 통해 다운로드할 수 있다. 하나의 패키지가 다른 패키지나 공유 라이브러리 등을 필요로하는 경우가 있는데 이를 패키지 간의 의존성이라고 부른다. 의존성을 해결하는 기능을 제공하는 것이 리눅스의 패키지 관리 시스템의 주요 역할.
+	* 저수준 툴 : 실제 패키지의 설치, 업데이트, 삭제 등을 수행
+	* 고수준 툴 : 의존성의 해결, 패키지 검색 등의 기능 제공
+	![저수준/고수준 패키지 관리도구](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcAT6PA%2Fbtqv94LffWa%2Ffuul1kN5vVtmx9MXsdupI0%2Fimg.png)
+	
+- 공통점 : Apptitude와 APT 모두 패키지 관리를 위한 고수준 관리 도구로 패키지의 설치 삭제 등과 같은 작업을 편리하게 실행하도록 도와줌
+- APT : Advancded Packaging Tool의 약자로 apt-get, apt-cache 등 패키지를 설치하고 제거하는 용도로 만들어진 툴들의 기능을 통합한 툴. 사용자들이 자주 쓰는 커맨드들이 각 툴에 흩어져 있어 불편했던 점을 보완하기 위한 툴이다. 
+- Apptitude : 데비안의 또 다른 고수준 패키지 관리 도구로, apt-get 보다
