@@ -39,3 +39,5 @@ tags : [TIL]
   * 네트워크에서 패킷이 네트워크 게이트웨이를 통과하는 동안 네트워크 주소를 변환해주는 것. 외부에서의 접속을 편리하게 하는 것이 목적이다.
   * 한 IP 내에 여러개의 pc가 연결돼 있는 경우 효과적인 연결을 위해 포트포워딩을 실시한다.
   ![포트포워딩 예시](https://t1.daumcdn.net/cfile/tistory/2410253E53F01BE61F "출처 : https://storytown.tistory.com/14")
+ - ssh를 통해 호스트 pc에서 virutal box 내 os로 원격 접속하기
+    링크 : https://blog.solaris.co.kr/263
