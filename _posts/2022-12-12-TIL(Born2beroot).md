@@ -6,7 +6,7 @@ categories: TIL
 tags : [TIL]
 ---
 
-#[Born2beroot] 가상머신과 리눅스
+[Born2beroot] 가상머신과 리눅스
 ============================
 
 ## 1. 가상머신은 어떻게 동작하는가?
