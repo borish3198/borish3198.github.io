@@ -33,4 +33,4 @@ tags : [TIL]
 - SSH란?
   > Secure SHell(SSH)이란 암호화 기법을 사용한 네트워크 프로토콜로 네트워크 상의 다른 컴퓨터에 로그인하거나 다른 시스템으로 파일을 복사할 수 있도록 해주는 응용 프로그램 혹은 프로토콜
 - 작동원리
-  ![ssh 작동원리](https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/JqQ/image/DycXTVgasvXzxV0pFfLtCkhLekI)
+  ![ssh 작동원리](https://velog.velcdn.com/images/apolontes/post/05448688-6e1f-4ad4-be37-052f5c6ba2c6/image.png)
