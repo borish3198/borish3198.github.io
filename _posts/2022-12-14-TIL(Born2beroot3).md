@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title : (Born2beroot) 파티션 & LVM
