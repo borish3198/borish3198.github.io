@@ -73,3 +73,11 @@ tags : [TIL]
 - Apptitude : 데비안의 또 다른 고수준 패키지 관리 도구로, apt-get 보다 개선된 기능을 제공함
 	* 가장 큰 차이는 apptitude의 경우 interactive UI를 제공한다는 점 / aptitude 명령어를 입력하면 설치된 패키지를 확인할 수 있는 인터페이스가 실행된다
 	![aptitude](https://upload.wikimedia.org/wikipedia/commons/9/9c/Aptitude.png)
+	
+* * *
+
+## 4. AppArmor
+
+> 유저가 프로세스에서 수행할 수 있는 작업을 제한함으로써 프로세스의 보안 취약성이 야기할 수 있는 문제를 방지하는 보안 기능
+
+- AppArmor 프로필 : 프로세스를
