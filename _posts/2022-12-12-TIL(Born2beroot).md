@@ -3,7 +3,8 @@ layout: post
 title : (Born2beroot) 가상머신과 리눅스
 subtitle : Born2beroot 1일차 개념정리
 categories: TIL
-tags : [TIL][LINUX]
+tags : [TIL]
+tags : [Linux]
 ---
 
 # [Born2beroot] 가상머신과 리눅스
