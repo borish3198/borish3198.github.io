@@ -11,17 +11,17 @@ tags : [SPRING]
 ## 1. 필요한 기술들
 
 - Spring Boot : Spring을 더 쉽게 이용하기 위한 도구이자 웹 어플리케이션 프레임워크, Spring 프레임워크에 톰캣 서버를 내장하고 많은 부분을 자동화한 것이 Sprinb Boot이다.
-[sping](https://melonicedlatte.com/assets/images/2021_3Q/spring_architect.png)
+![sping](https://melonicedlatte.com/assets/images/2021_3Q/spring_architect.png)
 출처 : https://melonicedlatte.com/assets/images/2021_3Q/spring_architect.png
 
 - Gradle : Gradle is an open-source build automation tool flexible enough to build almost any type of software
   * 빌드 : 소스코드 파일을 실행가능한 소프트웨어 산출물로 만드는 일련의 과정 (컴파일링, 링크 등의 과정을 통틀어 말함)
-[gradle](https://github.com/gradle/gradle/raw/master/gradle.png)
+![gradle](https://github.com/gradle/gradle/raw/master/gradle.png)
 출처 : https://github.com/gradle/gradle/raw/master/gradle.png
 
 - Thymeleaf : 서버 사이드 템플릿 엔진
   * 템플릿 엔진 : html의 고정된 파트를 템플릿으로 만들고 db에서 데이터를 가져와야하는 부분들을 가져와 html을 그리는 역할을 수행
-[템플릿 엔진](https://velog.velcdn.com/images/hi_potato/post/f80ea247-368e-41ee-b5c8-6e1baee7458c/image.png)
+![템플릿 엔진](https://velog.velcdn.com/images/hi_potato/post/f80ea247-368e-41ee-b5c8-6e1baee7458c/image.png)
 출처 : https://velog.velcdn.com/images/hi_potato/post/f80ea247-368e-41ee-b5c8-6e1baee7458c/image.png
 
 - JPA : 자바 진영에서 만든 ORM 기술 표준
