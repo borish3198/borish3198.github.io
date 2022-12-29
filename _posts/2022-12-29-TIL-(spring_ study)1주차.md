@@ -43,6 +43,7 @@ tags : [SPRING]
   * 2. 내장 톰캣 서버에서 이를 스프링 컨테이너로 전달 후 해당 페이지 관련 컨트롤러 유무 확인
   * 3. 없을 경우 해당 html을 그대로 반환
 
+
 - MVC와 템플릿 엔진
   > MVC : Model, View, Controller의 앞글자를 따오고 각각의 기능을 분리하여 웹 서비스를 구현하는 일종의 아키텍처를 말함.
   ![MVC 순서도](https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjVfMjUw/MDAxNDkwNDM4NzI4MTIy.4ZtITJJKJW_Nj1gKST0BhKMAzqmMaYIj9PobYJMFD4Ig.xTHT-0qyRKXsA4nZ2xKPNeCxeU2-tLIc-4oyrWq5WBgg.PNG.jhc9639/mvc_role_diagram.png?type=w800)
@@ -54,5 +55,6 @@ tags : [SPRING]
   * 4. 모델로부터 전달받은 데이터로 컨트롤러는 뷰(html)를 viewResolver를 통해 업데이트
   * 5. 유저에게 수정된 뷰를 전달
  
+
 - API
 
