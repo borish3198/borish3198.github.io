@@ -58,7 +58,6 @@ tags : [SPRING]
 
 - API
 > 클라이언트와의 통신뿐 아니라 서버끼리와의 통신에도 사용됨
-- API
   * 1. 클라이언트에서 GET 메서드를 전송
   * 2. 내장 톰캣 서버에서 이를 스프링 컨테이너로 전달 후 해당 이름의 GET 메서드와 매핑되는 컨트롤러로 연결
   * 3. @ResponseBody를 통해 viewResolver로 연결되지 않고 JsonConver/StringConverter로 연결
