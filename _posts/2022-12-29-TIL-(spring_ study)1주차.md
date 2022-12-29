@@ -47,6 +47,7 @@ tags : [SPRING]
   > MVC : Model, View, Controller의 앞글자를 따오고 각각의 기능을 분리하여 웹 서비스를 구현하는 일종의 아키텍처를 말함.
   ![MVC 순서도](https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjVfMjUw/MDAxNDkwNDM4NzI4MTIy.4ZtITJJKJW_Nj1gKST0BhKMAzqmMaYIj9PobYJMFD4Ig.xTHT-0qyRKXsA4nZ2xKPNeCxeU2-tLIc-4oyrWq5WBgg.PNG.jhc9639/mvc_role_diagram.png?type=w800)
   <center>출처 : https://mblogthumb-phinf.pstatic.net</center>
+  
   * 1. 클라이언트에서 th(템플릿 엔진)이 포함된 html 파일을 요구 
   * 2. 내장 톰캣 서버에서 이를 컨테이너로 전달 후 해당 파일 컨트롤러를 통해 모델 객체에 필요로 하는 데이터를 전달
   * 3. 모델은 데이터베이스 등에 접근하여 필요로 한 데이터를 다시 컨트롤러로 전달
