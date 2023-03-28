@@ -1,6 +1,6 @@
 ---
 layout: post
-title : (Minishell) 들어가며 
+title : (Minishell) 1일차 나만의 쉘 BNF 정리하기 
 subtitle : Minishell 작업일지
 categories: STUDY
 tags : [SPRING]

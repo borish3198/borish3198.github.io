@@ -2,7 +2,7 @@
 layout: post
 title : (Minishell) 들어가며 
 subtitle : Minishell 작업일지
-categories: STUDY
+categories: TIL
 tags : [SPRING]
 ---
 
@@ -18,4 +18,4 @@ tags : [SPRING]
 
   코딩, 개발 능력에만 집중하던 요즘, CS 지식에 한 층 더 다가갈 수 있는 기회라 생각했고, 과제의 핵심 개념들을 정리하면 파싱 부분을 해결하고자 한다. 추상 구문 트리, 하향 재귀 분석, LL 파싱 등 듣기만 해도 어렵지만 왠지 설레는 해당 개념들을 차근차근 정리해보자.
 
-![http://www.korea-press.com/news/photo/201501/67324_40322_141.jpg](http://www.korea-press.com/news/photo/201501/67324_40322_141.jpg)
+![http://www.korea-press.com/news/photo/201501/67324_40322_141.jpg](https://file3.instiz.net/data/file3/2018/02/13/7/f/5/7f5043d06417a8b7a255fd552089eba0.jpg)
