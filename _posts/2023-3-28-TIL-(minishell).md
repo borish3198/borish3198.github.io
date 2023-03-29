@@ -69,8 +69,6 @@ BNF는 한 언어의 문법을 표현하는 방식의 일종이며 이러한 방
 
 ```bash
 
-```
-
 - minishell BNF ver.1
 
 ```bash
