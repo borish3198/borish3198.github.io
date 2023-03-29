@@ -70,3 +70,40 @@ BNF는 한 언어의 문법을 표현하는 방식의 일종이며 이러한 방
 ```bash
 
 ```
+
+- minishell BNF ver.1
+
+```bash
+<command_line>     ::= <pipeline>
+							   		| <pipeline> '&&' <command_line>
+							  		| <pipeline> '||' <command_line>
+
+<pipeline>         ::= <command>
+								  	| <pipeline> '|' <command>
+
+<command>          ::= <simple_command>
+								  	| <simple_command> <redirection_list>
+								  	| <subshell>
+
+<redirection_list> ::= <redirection>
+										| <redirection_list> <redirection>
+
+<redirection>      ::= '>' <word>
+								  	| '<' <word>
+								  	| '>>' <word>
+								  	| '<<' <word>
+
+<subshell>         ::= '(' <command line> ')'
+
+<simple_command>   ::= <word>
+									  | <simple_command> <word>
+
+<word>             ::= <string>
+									  | <option>
+						  			| <wildcard_pattern>
+											# wildcard 구현 방법은 감이 오지 않는데 BNF 수정이 필요할 경우 수정 예정
+```
+
+: 기존 쉘의 것들을 많이 참조하여 작성했다. 여러개의 리다레익션이 중첩되는 경우, 소괄호 안의 명령어의 경우 subshell을 통해 처리하는 케이스를 위한 문법도 추가돼 있다. 실제 쉘에선 word를 character와 number 단위 까지 쪼개고, 심지어 single quote, double quote 으로 시작하는 문자열도 나누곤 하는데 해당 부분은 토큰화 단계에서 처리할 예정으로 따로 표기하지는 않았다. 
+
+팀원과 문법 상의 누락된 부분은 없는지 살펴 볼 예정이며 구현과정에서 수정사항은 현재 페이지 하단에 버전으로 나누어 추가할 예정이다.
