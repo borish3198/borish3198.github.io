@@ -1,3 +1,11 @@
+---
+layout: post
+title : (Minishell) 2일차 토크나이저 설계 
+subtitle : Minishell 작업일지
+categories: STUDY
+tags : [SPRING]
+---
+
 # Minishell 파싱부 정리
 
 ### 2-2 토크나이저 구현
